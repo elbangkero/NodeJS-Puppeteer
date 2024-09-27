@@ -168,8 +168,16 @@ const path = require('path');
                         await checkbox.click(); // Click the checkbox if not checked
                         checkboxClickCount++; // Increment click counter
                         console.log(`Clicked on access level: ${accessText}`);
-                    } else {
-                        console.log(`Access level "${accessText}" is already checked, skipping.`);
+                    } else { 
+                        const errorMSG = `Access level "${accessText}" is already checked, skipping.`;
+                        const logFilePath = path.join(__dirname, 'error_msg.txt');
+                        fs.appendFile(logFilePath, `${errorMSG}\n`, (err) => {
+                            if (err) {
+                                console.error('Error writing to file:', err);
+                            } else {
+                                console.log(`${errorMSG}`);
+                            }
+                        });
                     }
                     // Mark this access level as checked in the Map
                     checkedAccessLevels.set(accessText, isChecked || true); // Set to true if already checked
