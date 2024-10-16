@@ -1,35 +1,7 @@
-Access level "Access : Upload Slip" is already checked, skipping.
-Access level "Access : Upload Promotion Images" is already checked, skipping.
-Access level "Access : Create Bet Limit" is already checked, skipping.
-Access level "Access : Upload Game Images" is already checked, skipping.
-Access level "Access : Create Notification Modal" is already checked, skipping.
-Access level "Access : Find Rebate History" is already checked, skipping.
-Access level "Access : Search Rebate History" is already checked, skipping.
-Access level "Access : Find Rebate Transaction Detail" is already checked, skipping.
-Access level "Access : Find Referral Transaction" is already checked, skipping.
-Access level "Access : Find Daily Referral Search" is already checked, skipping.
-Access level "Access : Find Report Daily" is already checked, skipping.
-Access level 'Access : Find Top 15 Affiliate' not found
-Access level 'Access : Get Top 15 Affiliate' not found
-Access level 'Access : Get Top 15 Affiliate Turnover' not found
-Access level 'Access : Get Top 15 Affiliate Winlose' not found
-Access level 'Access : Find Affiliate Monthly Report' not found
-Access level 'Access : Create Export Csv Affiliate Monthly Report' not found
-Access level "Access : Export Csv Daily Cashback" is already checked, skipping.
-Access level "Access : Find Daily Referral Search" is already checked, skipping.
-Access level "Access : Export Csv Top 100 Turnover Report" is already checked, skipping.
-Access level "Access : Export Csv Daily Referral" is already checked, skipping.
-Access level "Access : Export Data Daily Referral" is already checked, skipping.
-Access level "Access : Find Referral Monthly Report" is already checked, skipping.
-Access level "Access : Export Csv Cashback Monthly Report" is already checked, skipping.
-Access level "Access : Find Referral Monthly Report" is already checked, skipping.
-Access level "Access : Find Rebate Monthly Report" is already checked, skipping.
-Access level "Access : Export Csv Rebate Monthly Report" is already checked, skipping.
-Access level "Access : Export Csv Summary Deposit Withdraw" is already checked, skipping.
-Access level "Access : Upload Point Images" is already checked, skipping.
-Access level "Access : Upload Exchange Money Images" is already checked, skipping.
-Access level "Access : Upload Random Card Images" is already checked, skipping.
-Access level "Access : Upload Lucky Box Images" is already checked, skipping.
-Access level "Access : Upload Redeem Reward Images" is already checked, skipping.
-Access level "Access : Create Announcement" is already checked, skipping.
-Access level "Access : Find Announcement" is already checked, skipping.
+Access level "- Access : Find All Transaction Deposit" not found.
+Access level "- Access : Get Transaction All Deposit" not found.
+Access level "- Access : Find Export Data Daily Referral" not found.
+Access level "- Access : Find Report New Member Promotion" not found.
+Access level "- Access : Find Performance Referral Member" not found.
+Access level "- Access : Find Referral Performance Transaction" not found.
+Access level "- Access : Find Performance Received Promotion" not found.
