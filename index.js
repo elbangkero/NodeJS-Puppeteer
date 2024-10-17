@@ -154,7 +154,7 @@ const path = require('path');
         try {
             const normalizedAccessText = `- ${accessText.trim()}`;
 
-            const checkboxes = await page.$$eval('tr[data-v-7bc9c9fd]', (rows, text) =>
+            const checkboxes = await page.$$eval('tr', (rows, text) =>
                 rows.filter(row => {
                     const tdText = row.querySelector('td.pl-5') ? row.querySelector('td.pl-5').textContent.trim() : '';
                     return tdText === text;

@@ -1,7 +1,0 @@
-Access level "- Access : Find All Transaction Deposit" not found.
-Access level "- Access : Get Transaction All Deposit" not found.
-Access level "- Access : Find Export Data Daily Referral" not found.
-Access level "- Access : Find Report New Member Promotion" not found.
-Access level "- Access : Find Performance Referral Member" not found.
-Access level "- Access : Find Referral Performance Transaction" not found.
-Access level "- Access : Find Performance Received Promotion" not found.
