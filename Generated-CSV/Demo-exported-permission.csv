@@ -1,0 +1,690 @@
+Permission,Demo
+ Menu  Member,TRUE
+ Access  Check Twofactor Authentication,TRUE
+ Access  View Member List,TRUE
+ Access  Details Member,TRUE
+ Access  Create Lock Member,TRUE
+ Access  Update Lock Member,TRUE
+ Access  Lock Member,TRUE
+ Access  Lock Member Find Game Category,TRUE
+ Access  Lock Member Find Game List,TRUE
+ Access  Lock Member Find Provider,TRUE
+ Access  Create Member,TRUE
+ Access  Edit Member,TRUE
+ Access  Search Member,TRUE
+ Access  Update Level Member,TRUE
+ Access  Changepassword Member,TRUE
+ Access  Get Last 50 Trans Deposit,TRUE
+ Access  Export Csv Last 50 Trans Deposit,TRUE
+ Access  Get Promotion In Last 50 Trans Deposit,TRUE
+ Access  Get Last 50 Trans Withdraw,TRUE
+ Access  Export Csv Last 50 Trans Withdraw,TRUE
+ Access  Get Bank Information Member,TRUE
+ Access  Edit Bank Information Member,TRUE
+ Access  Get Activity Log,TRUE
+ Access  Export Csv Activity Log,TRUE
+ Access  Get Login Log,TRUE
+ Access  Export Csv Login Log,TRUE
+ Access  Search Adjust Wallet User,TRUE
+ Access  View Adjust Wallet User,TRUE
+ Access  Details Adjust Wallet User,TRUE
+ Access  Create Adjust Wallet User,TRUE
+ Access  Sign Url For Upload,TRUE
+ Access  Upload Slip,TRUE
+ Access  Upload Slip,TRUE
+ Access  Get User Detail For Adjust,TRUE
+ Access  Patch Otp Verify,TRUE
+ Access  Get Member Otp,TRUE
+ Access  Find Member Otp,TRUE
+ Access  Find Referral Team List,TRUE
+ Access  Find Referral Team List Search,TRUE
+ Access  Find Referral Team List Check Root,TRUE
+ Access  Find Referral Team List Change,TRUE
+ Access  Patch Referral Team List Change,TRUE
+ Access  Find Blacklist Behavior,TRUE
+ Access  Create Blacklist Behavior,TRUE
+ Access  Search Adjust Point User,TRUE
+ Access  Create Adjust Point User,TRUE
+ Access  View Adjust Point User,TRUE
+ Access  Edit Member Account Pool Config,TRUE
+ Access  Get Payment Pool Option,TRUE
+ Access  Find Ip Member,TRUE
+ Access  Find Activity Logs Ip,TRUE
+ Access  Create Bet Limit User,TRUE
+ Access  Check Member Account,TRUE
+ Access  Check Member Wallet,TRUE
+ Access  Get Wallet No Member,TRUE
+ Access  Edit Wallet No Member,TRUE
+ Access  Adjust Turn Deposit,TRUE
+ Menu  Credit balance,TRUE
+ Access  Get Credit Balance,TRUE
+ Access  Get Credit Balance,TRUE
+ Access  Get Credit Balance,TRUE
+ Menu  Payment,TRUE
+ Access  Find Payment Config,TRUE
+ Access  Get Payment Config,TRUE
+ Access  Add Payment Config,TRUE
+ Access  Edit Payment Config,TRUE
+ Access  Delete Payment Config,TRUE
+ Access  Edit Payment Config Bank Sms,TRUE
+ Access  Add Payment Config Bank Sms,TRUE
+ Access  Add Payment Config Bay,TRUE
+ Access  Edit Payment Config Bay,TRUE
+ Access  Add Payment Config Scb,TRUE
+ Access  Edit Payment Config Scb,TRUE
+ Access  Add Payment Config Scb Otp,TRUE
+ Access  Edit Payment Config Scb Otp,TRUE
+ Access  Add Payment Config Truewallet,TRUE
+ Access  Edit Payment Config Truewallet,TRUE
+ Access  Edit Payment Config Truewallet,TRUE
+ Access  Edit Payment Config Truewallet,TRUE
+ Access  Create Payment Config Truewallet,TRUE
+ Access  Add Payment Config Ktb,TRUE
+ Access  Edit Payment Config Ktb,TRUE
+ Access  Add Payment Config Capital Pay Api,TRUE
+ Access  Add Payment Config Kbank Api,TRUE
+ Access  Edit Payment Config Capital Pay Api,TRUE
+ Access  Edit Payment Config Kbank Api,TRUE
+ Access  Add Payment Config Mandiri Api,TRUE
+ Access  Add Payment Config Vizpay Pay Api,TRUE
+ Access  Edit Payment Config Mandiri Api,TRUE
+ Access  Edit Payment Config Vizpay Pay Api,TRUE
+ Access  Sync Payment Config Mandiri Api,TRUE
+ Access  Add Payment Config Wealthpay Pay Api,TRUE
+ Access  Add Payment Config Genkinpay Api,TRUE
+ Access  Edit Payment Config Wealthpay Pay Api,TRUE
+ Access  Edit Payment Config Genkinpay Api,TRUE
+ Access  Add Payment Config Gsb Pay Api,TRUE
+ Access  Edit Payment Config Gsb Pay Api,TRUE
+ Access  Add Payment Config Gsb Otp,TRUE
+ Access  Edit Payment Config Gsb Otp,TRUE
+ Access  Get Check Payment Account,TRUE
+ Access  Verify Face Payment Config Gsb,TRUE
+ Access  Payment Get Balance,TRUE
+ Access  Payment Get Transfer Transaction,TRUE
+ Access  Payment Craete Transfer Transaction,TRUE
+ Access  Payment Confirm Transfer Transaction,TRUE
+ Access  Payment Get Statement,TRUE
+ Menu  Deposit,TRUE
+ Access  View Deposit Transaction,TRUE
+ Access  Details Deposit Transaction,TRUE
+ Access  Rejectapprove Deposit Transaction,TRUE
+ Access  Search Deposit Transaction,TRUE
+ Access  Get Promotion In Details Deposit,TRUE
+ Access  Count Deposit Withdraw,TRUE
+ Menu  Auto Bank Deposit,TRUE
+ Access  Search Deposit Auto Skip,TRUE
+ Access  Search Deposit Auto Verify,TRUE
+ Access  Get Deposit Auto Verify,TRUE
+ Access  Search Deposit Auto Waiting,TRUE
+ Access  Find Deposit Auto,TRUE
+ Access  Find Deposit Auto Search,TRUE
+ Access  Search Deposit Auto Verify,TRUE
+ Access  Find Deposit Auto Wating User,TRUE
+ Access  Create Deposit Auto Wating User Deposit,TRUE
+ Access  Delete Deposit Auto,TRUE
+ Menu  Truewallet Deposit,TRUE
+ Access  View Deposit Truewallet Transaction,TRUE
+ Access  Search Deposit Truewallet Transaction,TRUE
+ Access  View Deposit Truewallet Waiting,TRUE
+ Access  Get Deposit Truewallet Waiting,TRUE
+ Access  Delete Verify,TRUE
+ Access  Delete Verify Truewallet,TRUE
+ Access  Search Deposit Truewallet Waiting,TRUE
+ Access  Search User Deposit Truewallet Verify,TRUE
+ Access  User Create Deposit Truewallet Verify,TRUE
+ Access  View Deposit Truewallet Transaction Verify,TRUE
+ Access  Detail Deposit Truewallet Transaction Verify,TRUE
+ Access  Search Deposit Truewallet Transaction Verify,TRUE
+ Access  Remove Deposit Truewallet Transaction Verify,TRUE
+ Menu  All Deposit,TRUE
+ Access  Find All Deposit Transaction,TRUE
+ Access  Get All Deposit Transaction,TRUE
+ Access  Find All Adjust Transaction,TRUE
+ Access  Export Deposit Adjust Transaction,TRUE
+ Menu  Gateway Deposit,TRUE
+ Access  Find Deposit Gateway,TRUE
+ Access  Search Deposit Gateway Waiting,TRUE
+ Access  Find Deposit Gateway Wating User,TRUE
+ Access  Create Deposit Gateway Wating User Deposit,TRUE
+ Access  Search Deposit Gateway Skip,TRUE
+ Access  Search Deposit Gateway Verify,TRUE
+ Access  Get Deposit Gateway Verify,TRUE
+ Access  Delete Deposit Gateway,TRUE
+ Menu  Withdraw,TRUE
+ Access  Upload Slip For Withdraw,TRUE
+ Access  Upload Slip For Withdraw,TRUE
+ Access  Search Withdraw Waiting,TRUE
+ Access  View Withdraw Waiting,TRUE
+ Access  Get Details Withdraw Waiting,TRUE
+ Access  Edit Withdraw Waiting,TRUE
+ Access  Search Withdraw Approve,TRUE
+ Access  View Withdraw Approve,TRUE
+ Access  Edit Withdraw Approve,TRUE
+ Access  Get Details Withdraw Approve,TRUE
+ Access  Search Withdraw History,TRUE
+ Access  View Withdraw History,TRUE
+ Access  Get Details Withdraw History,TRUE
+ Access  Search Withdraw Settlement,TRUE
+ Access  View Withdraw Settlement,TRUE
+ Access  Get Detail Withdraw Settlement,TRUE
+ Access  Create Withdraw Settlement,TRUE
+ Access  Edit Withdraw Settlement,TRUE
+ Access  View Withdraw Settlement,TRUE
+ Access  Search Withdraw Settlement Transaction,TRUE
+ Access  View Withdraw Settlement Transaction,TRUE
+ Access  Get Details Withdraw Settlement Transaction,TRUE
+ Access  Create Withdraw Settlement Transaction,TRUE
+ Access  View Withdraw Config,TRUE
+ Access  Edit Withdraw Config,TRUE
+ Access  Edit Settlement Account Scb Bot,TRUE
+ Access  Request Otp Settlement Account Scb Bot,TRUE
+ Access  Conirm Otp Settlement Account Scb Bot,TRUE
+ Access  Get Settlement Account Scb Bot,TRUE
+ Access  Edit Settlement Account Kkp Bot,TRUE
+ Access  Get Settlement Account Kkp Bot,TRUE
+ Access  Request Otp Settlement Account Kkp Bot,TRUE
+ Access  Conirm Otp Settlement Account Kkp Bot,TRUE
+ Access  Get Settlement Account Kbank Bot,TRUE
+ Access  Edit Settlement Account Kbank Bot,TRUE
+ Access  Get Settlement Account Vizpay Bot,TRUE
+ Access  Edit Settlement Account Vizpay Bot,TRUE
+ Access  Get Settlement Account Mandiri Bot,TRUE
+ Access  Edit Settlement Account Mandiri Bot,TRUE
+ Access  Get Settlement Account Genkinpay Bot,TRUE
+ Access  Edit Settlement Account Mandiri Bot Sync,TRUE
+ Access  Edit Settlement Account Genkinpay Bot,TRUE
+ Access  Get Settlement Account Wealthpay Bot,TRUE
+ Access  Edit Settlement Account Wealthpay Bot,TRUE
+ Access  Get Settlement Account Gsb Bot,TRUE
+ Access  Edit Settlement Account Gsb Bot,TRUE
+ Access  Request Otp Settlement Account Gsb Bot,TRUE
+ Access  Conirm Otp Settlement Account Gsb Bot,TRUE
+ Access  Verify Face Settlement Account Gsb Bot,TRUE
+ Access  Get Settlement Account Capitalpay Bot,TRUE
+ Access  Edit Settlement Account Capitalpay Bot,TRUE
+ Access  Find Auto Withdraw,TRUE
+ Access  Patch Auto Withdraw,TRUE
+ Access  Get User Outstanding,TRUE
+ Access  Delete Settlement Account,TRUE
+ Access  Settlement Get Balance,TRUE
+ Access  Settlement Get Transfer Transaction,TRUE
+ Access  Settlement Craete Transfer Transaction,TRUE
+ Access  Settlement Confirm Transfer Transaction,TRUE
+ Access  Settlement Get Transfer Transaction,TRUE
+ Menu  Promotion,TRUE
+ Access  Search Promotion Information,TRUE
+ Access  View Promotion Information,TRUE
+ Access  Get Detail Promotion Information,TRUE
+ Access  Create Promotion Information,TRUE
+ Access  Edit Promotion Information,TRUE
+ Access  Remove Promotion Information,TRUE
+ Access  View Bonus Payout Setting,TRUE
+ Access  Get Detail Bonus Payout Setting,TRUE
+ Access  Create Bonus Payout Setting,TRUE
+ Access  Edit Bonus Payout Setting,TRUE
+ Access  Remove Bonus Payout Setting,TRUE
+ Access  View Bonus Release Setting,TRUE
+ Access  Get Details Bonus Release Setting,TRUE
+ Access  Create Bonus Release Setting,TRUE
+ Access  Edit Bonus Release Setting,TRUE
+ Access  Remove Bonus Release Setting,TRUE
+ Access  View Bonus Language Setting,TRUE
+ Access  Get Details Bonus Language Setting,TRUE
+ Access  Create Bonus Language Setting,TRUE
+ Access  Edit Bonus Language Setting,TRUE
+ Access  Remove Bonus Language Setting,TRUE
+ Access  Upload Promotion Images,TRUE
+ Access  Upload Promotion Images,TRUE
+ Access  Find Member Join Promotion,TRUE
+ Access  Find Promotion Member Report And Current,TRUE
+ Access  Patch Status Promotion Member,TRUE
+ Access  Find Layout Position,TRUE
+ Access  Get Layout Position,TRUE
+ Access  Promotion Update Seq No,TRUE
+ Access  Assgin Promotion Member,TRUE
+ Access  Pre Assgin Promotion Member,TRUE
+ Menu  CMS,TRUE
+ Access  Request Upload Cms,TRUE
+ Access  Upload Mcs,TRUE
+ Access  Find Sytem Config,TRUE
+ Access  Get Sytem Config,TRUE
+ Access  Create Sytem Config,TRUE
+ Access  Patch Sytem Config,TRUE
+ Access  Remove Banner,TRUE
+ Access  Patch Banner,TRUE
+ Access  Create Banner,TRUE
+ Access  Find Banner,TRUE
+ Access  Create Systembanner,TRUE
+ Access  Find Systembanner Search,TRUE
+ Access  Search Vendor,TRUE
+ Access  Eidt Vendor,TRUE
+ Access  Find Vendor,TRUE
+ Access  Set Is Active Multi Vendor,TRUE
+ Access  Serch Provider,TRUE
+ Access  Find Provider,TRUE
+ Access  Set Is Active Multi Provider,TRUE
+ Access  Create Bet Limit,TRUE
+ Access  Lotto Config,TRUE
+ Access  Provider Config,TRUE
+ Access  Search Game List,TRUE
+ Access  Find Sticky Config,TRUE
+ Access  View Game List,TRUE
+ Access  Patch Sticky Config,TRUE
+ Access  Get Details Game List,TRUE
+ Access  Edit Multi Game List Is Active,TRUE
+ Access  Edit Game List,TRUE
+ Access  Upload Game Images,TRUE
+ Access  Create Sign Url Sticky Config,TRUE
+ Access  Upload Game Images,TRUE
+ Access  Upload Sticky Config,TRUE
+ Access  View Member Config,TRUE
+ Access  Update Member Config,TRUE
+ Access  Find Notification Modal,TRUE
+ Access  Create Notification Modal Add,TRUE
+ Access  Remove Notification Modal,TRUE
+ Access  Find Notification Modal Search,TRUE
+ Access  Patch Notification Modal,TRUE
+ Access  Create Notification Modal,TRUE
+ Access  Create Custom Function,TRUE
+ Access  Find Custom Function,TRUE
+ Access  Create Otp Config,TRUE
+ Access  Find Otp Config,TRUE
+ Access  Find Pool Config,TRUE
+ Access  Edit Pool Config,TRUE
+ Access  Find Register Config,TRUE
+ Access  Patch Register Config,TRUE
+ Access  Create Member Lv Articles,TRUE
+ Access  Find Member Lv Articles,TRUE
+ Access  Patch Member Lv Articles,TRUE
+ Access  Remove Member Lv Articles,TRUE
+ Access  Find Member Lv Detail,TRUE
+ Access  Get Member Lv Detail,TRUE
+ Access  Patch Member Lv Detail,TRUE
+ Access  Create Member Lv Detail,TRUE
+ Access  Create Sign Url Member Lv Articles,TRUE
+ Access  Upload Member Lv Articles,TRUE
+ Access  Find Cms Slip Backup Deposit,TRUE
+ Access  Patch Cms Slip Backup Deposit,TRUE
+ Access  Remove Ip Whitelist Config,TRUE
+ Access  Create Ip Whitelist Config,TRUE
+ Access  Find Ip Whitelist Config,TRUE
+ Access  Patch System Remark Config,TRUE
+ Access  Find System Remark Config,TRUE
+ Access  Get System Remark Config,TRUE
+ Access  Delete System Remark Config,TRUE
+ Access  Create System Remark Config,TRUE
+ Access  Find Config Function,TRUE
+ Access  Patch Config Function,TRUE
+ Access  Find Payment Deposit Config,TRUE
+ Access  Set Payment Deposit Config,TRUE
+ Menu  Rebate,TRUE
+ Access  Find Rebate Config,TRUE
+ Access  Create Rebate Articles,TRUE
+ Access  Patch Rebate Articles,TRUE
+ Access  Create Rebate Rule,TRUE
+ Access  Patch Rebate Rule,TRUE
+ Access  Find Rebate Rule,TRUE
+ Access  Get Rebate Rule,TRUE
+ Access  Remove Rebate Articles,TRUE
+ Access  Patch Rebate Config,TRUE
+ Access  Find Rebate Transaction,TRUE
+ Access  Search Rebate Transaction,TRUE
+ Access  Find Rebate Transaction Detail,TRUE
+ Access  Find Rebate Transfer,TRUE
+ Access  Find Rebate History,TRUE
+ Access  Search Rebate History,TRUE
+ Access  Find Rebate History,TRUE
+ Access  Search Rebate History,TRUE
+ Access  Find Rebate Articles,TRUE
+ Access  User Claim Rebate,TRUE
+ Access  Find Rebate Member Detail,TRUE
+ Menu  Cashback,TRUE
+ Access  Find Cashback Config,TRUE
+ Access  Create Cashback Articles,TRUE
+ Access  Patch Cashback Articles,TRUE
+ Access  Remove Cashback Articles,TRUE
+ Access  Find Cashback Articles,TRUE
+ Access  Create Cashback Rule,TRUE
+ Access  Patch Cashback Rule,TRUE
+ Access  Find Cashback Rule,TRUE
+ Access  Get Cashback Rule,TRUE
+ Access  Remove Cashback Rule,TRUE
+ Access  Patch Cashback Config,TRUE
+ Access  Find Cashback Transaction,TRUE
+ Access  Search Cashback Transaction,TRUE
+ Access  Find Rebate Transaction Detail,TRUE
+ Access  Find Cashback Transfer,TRUE
+ Access  Find Rebate Transaction History,TRUE
+ Access  Search Rebate Transaction Detail,TRUE
+ Access  Find Cashback Member Detail,TRUE
+ Menu  Referral,TRUE
+ Access  Create Referral Article,TRUE
+ Access  Patch Referral Article,TRUE
+ Access  Get Referral Rule,TRUE
+ Access  Find Referral Rule,TRUE
+ Access  Create Referral Rule,TRUE
+ Access  Patch Referral Rule,TRUE
+ Access  Patch Referral Config,TRUE
+ Access  Find Referral Config,TRUE
+ Access  Find Referral Domain,TRUE
+ Access  Create Referral Domain,TRUE
+ Access  Patch Referral Domain,TRUE
+ Access  Remove Referral Domain,TRUE
+ Access  Find Referral Maximum Config,TRUE
+ Access  Find Referral Monthly Report,TRUE
+ Access  Create Export Csv Referral Monthly Report,TRUE
+ Access  Find Referral Transfer History,TRUE
+ Access  Find Referral Transaction Member Per Level,TRUE
+ Access  Find Referral Transaction View,TRUE
+ Access  Find Referral Transaction Per Level,TRUE
+ Access  Find Referral Transaction Detail,TRUE
+ Access  Find Referral Transaction,TRUE
+ Access  Find Referral Transaction Search,TRUE
+ Access  Find Referral Data Daily Referral,TRUE
+ Access  Find Daily Referral Search,TRUE
+ Access  Remove Referral Articles,TRUE
+ Access  Export Csv Daily Referral,TRUE
+ Access  Export Data Daily Referral,TRUE
+ Access  Find Daily Referral Search,TRUE
+ Access  Find Referral Member Detail,TRUE
+ Menu  Report,TRUE
+ Access  Search Game History,TRUE
+ Access  Find Report Summery Partner,TRUE
+ Access  Get Game History For Report,TRUE
+ Access  Find Game History,TRUE
+ Access  Export Game History Csv,TRUE
+ Access  Find Report Daily,TRUE
+ Access  Find First Time Deposit,TRUE
+ Access  Replay Game History,TRUE
+ Access  Find Topup Transaction,TRUE
+ Access  Get Daily Report Data For Report,TRUE
+ Access  Find Topup Transaction Chart,TRUE
+ Access  Export Daily Report Csv,TRUE
+ Access  Find Topup Transaction Table Bot,TRUE
+ Access  Find Topup Transaction Table Admin,TRUE
+ Access  Find Topup Transaction Table Reason,TRUE
+ Access  Find Top 15 Referral,TRUE
+ Access  Get Top 15 Referral,TRUE
+ Access  Get Top 15 Referral Turnover,TRUE
+ Access  Get Top 15 Referral Winlose,TRUE
+ Access  Find Referral Monthly Report,TRUE
+ Access  Create Export Csv Referral Monthly Report,TRUE
+ Access  Find First Time Deposit Chart,TRUE
+ Access  Find First Time Deposit Day,TRUE
+ Access  Find First Time Deposit Month,TRUE
+ Access  Export Csv Report Adjust User Wallet,TRUE
+ Access  Export Csv Report Performance Promotion,TRUE
+ Access  Report Adjust Wallet User,TRUE
+ Access  Report Member Birthday,TRUE
+ Access  Report Member Turnover Turnwinlose Summary Category Of Provider,TRUE
+ Access  Report Member Turnover Turnwinlose Summary Game Category,TRUE
+ Access  Report Member Turnover Turnwinlose Summary Game Provider,TRUE
+ Access  Report Performance Promotion,TRUE
+ Access  Report Received Promotion,TRUE
+ Access  Export Csv File Report Withdraw Settlement Transaction,TRUE
+ Access  Report Adjust Withdraw Settlement Transaction User,TRUE
+ Access  Report Returning Players,TRUE
+ Access  Report Find Kpi Admin Withdraw,TRUE
+ Access  Report Returning Players Details,TRUE
+ Access  View Daily Cashback,TRUE
+ Access  Export Csv Report Kpi Admin Withdraw,TRUE
+ Access  Export Csv Daily Cashback,TRUE
+ Access  Export Csv Daily Cashback,TRUE
+ Access  Export Csv Report Kpi Admin Withdraw Detail,TRUE
+ Access  Report Get Kpi Admin Withdraw,TRUE
+ Access  View Daily Rebate,TRUE
+ Access  Export Csv Daily Rebate,TRUE
+ Access  Find Referral Data Daily Referral,TRUE
+ Access  Find Monthly Rebate,TRUE
+ Access  Find Monthly Cashback,TRUE
+ Access  Find Daily Referral Search,TRUE
+ Access  Find Top 50 Favorite Game,TRUE
+ Access  Find Register Frequency,TRUE
+ Access  Exportcsvmonthlycashback,TRUE
+ Access  Export Csv Top 50 Favorite Game,TRUE
+ Access  Export Csv Register Frequency,TRUE
+ Access  View No Deposit Member,TRUE
+ Access  Exportcsvmonthlyrebate,TRUE
+ Access  Export Csv Daily No Deposit Member,TRUE
+ Access  Export Csv Data No Deposit Member,TRUE
+ Access  Export Data Daily Rebate,TRUE
+ Access  Export Data Daily Cashback,TRUE
+ Access  Export Csv Daily Quest,TRUE
+ Access  Find No Deposit User UNDEFINED Report,TRUE
+ Access  Export Csv Deposit User Report,TRUE
+ Access  Export Top Deposit,TRUE
+ Access  Export Csv Web Daily Quest,TRUE
+ Access  Find Top Deposit,TRUE
+ Access  Find Daily Referral Search,TRUE
+ Access  Find Top 100 Turn Over,TRUE
+ Access  Search Top 100 UNDEFINED Turnover Report,TRUE
+ Access  Find Daily Max Withdraw,TRUE
+ Access  Export Csv Daily Max Withdraw,TRUE
+ Access  Export Csv Top 100 Turnover Report,TRUE
+ Access  Export Csv Top 100 Turnover Report,TRUE
+ Access  Get Admin Activity,TRUE
+ Access  Export Csv Admin Activity,TRUE
+ Access  Get Monthly Referral,TRUE
+ Access  Export Csv Monthly Referral,TRUE
+ Access  Export Csv Daily Referral,TRUE
+ Access  Find User Withdraw Report Search,TRUE
+ Access  Export Csv User Withdraw Report,TRUE
+ Access  Export Data Daily Referral,TRUE
+ Access  Find Report New Member Deposit,TRUE
+ Access  Search User Activity Report,TRUE
+ Access  Export Csv User Activity Report,TRUE
+ Access  Summary Transaction Game,TRUE
+ Access  Summary Transaction Game Detail,TRUE
+ Access  Export Csv Summary Transaction Game,TRUE
+ Access  Export Csv Summary Transaction Game Detail,TRUE
+ Access  Find User Deposit Channel,TRUE
+ Access  Find Deposit Range Report Search,TRUE
+ Access  Export Csv Deposit Range Report,TRUE
+ Access  Find Summary Deposit And Withdraw,TRUE
+ Access  Export Csv Summary Deposit Withdraw Report,TRUE
+ Access  Find Deposit Check Report Search,TRUE
+ Access  Find Summary Deposit Detail,TRUE
+ Access  Find Summary Withdraw Detail,TRUE
+ Access  Find Web Daily Referral,TRUE
+ Access  Find Cashback Daily Report,TRUE
+ Access  Export Csv Web Daily Referral Report,TRUE
+ Access  Export Csv Cashback Daily Report,TRUE
+ Access  Find Referral Monthly Report,TRUE
+ Access  Find Rebate Daily Report,TRUE
+ Access  Export Csv Web Monthly Referral Report,TRUE
+ Access  Export Csv Rebate Daily Report,TRUE
+ Access  Find Referral Daily Report,TRUE
+ Access  Find Web Daily Cashback,TRUE
+ Access  Export Csv Referral Daily Report,TRUE
+ Access  Export Csv Web Daily Cashback Report,TRUE
+ Access  Find Cashback Monthly Report,TRUE
+ Access  Find Web Monthly Cashback,TRUE
+ Access  Export Csv Cashback Monthly Report,TRUE
+ Access  Export Csv Cashback Monthly Report,TRUE
+ Access  Find Referral Monthly Report,TRUE
+ Access  Find Web Rebate Daily Report,TRUE
+ Access  Find Rebate Monthly Report,TRUE
+ Access  Export Csv Referral Monthly Report,TRUE
+ Access  Export Csv Web Rebate Daily Report,TRUE
+ Access  Export Csv Rebate Monthly Report,TRUE
+ Access  Find Rebate Monthly Report,TRUE
+ Access  Export Csv Rebate Monthly Report,TRUE
+ Access  Find Blacklist Info Member,TRUE
+ Access  Export Csv Blacklist Info Member,TRUE
+ Access  Delete Blacklist Info Member,TRUE
+ Access  Find No Bet Member Report,TRUE
+ Access  Export Csv No Bet Member Report,TRUE
+ Access  Export Data Blacklist Info Member,TRUE
+ Access  Find Daily Point Report,TRUE
+ Access  Export Csv Daily Point Report,TRUE
+ Access  Export Csv Daily Redeem Card Report,TRUE
+ Access  Export Csv Web Daily Point Report,TRUE
+ Access  Find Web Daily Point Report,TRUE
+ Access  Daily Redeem Card Report,TRUE
+ Access  Export Csv Daily Redeem Exchange Money Report,TRUE
+ Access  Daily Redeem Exchange Money Report,TRUE
+ Access  Daily Redeem Lucky Box Report,TRUE
+ Access  Export Csv Daily Redeem Lucky Box Report,TRUE
+ Access  Daily Redeem Reward Report,TRUE
+ Access  Export Csv Daily Redeem Reward Report,TRUE
+ Access  Find New Member Register Channel Report,TRUE
+ Access  Export Csv Member Lv Report,TRUE
+ Access  Find Member Lv Report,TRUE
+ Access  Get Member Lv Report,TRUE
+ Access  Find Member Summary Report,TRUE
+ Access  Find Member Summary Turnover Turnwinlose,TRUE
+ Access  Export Member Summary Report,TRUE
+ Access  Export Csv Report New Member Promotion,TRUE
+ Access  Find Report New Member Promotion Detail,TRUE
+ Access  Find Web Member Summary Report,TRUE
+ Access  Find Referral Performance,TRUE
+ Access  Get Referral Performance,TRUE
+ Access  Find Referral Performance Turnover Winlose,TRUE
+ Access  Create Export Csv Referral Performance,TRUE
+ Access  Get Admin Activity Member,TRUE
+ Access  Export Csv Admin Activity Member,TRUE
+ Access  Report Daily Login Members,TRUE
+ Access  Find Referral Performance,TRUE
+ Access  Find Referral Performance,TRUE
+ Access  Find Referral Performance,TRUE
+ Access  Report Daily Login Members Detail,TRUE
+ Access  Export Csv Find Report Summery Partner,TRUE
+ Access  Find Web Daily Redeem Reward,TRUE
+ Access  Export Web Daily Redeem Reward,TRUE
+ Access  Export Scv Transaction Adjust Turn Deposit,TRUE
+ Access  Find Transaction Adjust Turn Deposit,TRUE
+ Menu  Dashboard,TRUE
+ Access  Get Daily Register Summary,TRUE
+ Access  Get Daily Deposit Summary,TRUE
+ Access  Get Daily Dashboard Summary,TRUE
+ Access  Get Daily Dashboard Summary,TRUE
+ Access  Get Daily Withdraw Summary,TRUE
+ Access  Get Daily Winlose Summary,TRUE
+ Access  Get Daily Promotion Summary,TRUE
+ Access  Get Dashboard Daily Rebate Summary,TRUE
+ Access  Get Dashboard Daily Cashback Summary,TRUE
+ Access  Get Dashboard Daily Referral Summary,TRUE
+ Access  Get Daily Privilege Summary,TRUE
+ Access  Get Daily Deposit Chart,TRUE
+ Menu  Archive,TRUE
+ Access  Find Download Archive Report,TRUE
+ Menu  Point,TRUE
+ Access  Find Point Transaction,TRUE
+ Access  Find Point Transaction Detail,TRUE
+ Access  Get Point Transaction,TRUE
+ Access  Find Point Config,TRUE
+ Access  Patch Point Config,TRUE
+ Access  Find Point Rule,TRUE
+ Access  Create Point Rule,TRUE
+ Access  Get Point Rule,TRUE
+ Access  Patch Point Rule,TRUE
+ Access  Upload Point Images,TRUE
+ Access  Upload Point Images,TRUE
+ Access  Details Adjust Point User,TRUE
+ Access  Find Point Member Detail,TRUE
+ Menu  Redeem,TRUE
+ Access  Find Redeem Exchange Money Config,TRUE
+ Access  Patch Redeem Exchange Money Config,TRUE
+ Access  Find Redeem Transaction,TRUE
+ Access  Find Redeem Transaction Lre,TRUE
+ Access  Find Redeem Transaction Detail Lr,TRUE
+ Access  Find Redeem Transaction Detail E,TRUE
+ Access  Find Redeem Transaction Rr,TRUE
+ Access  Find Redeem Transaction Rr View,TRUE
+ Access  Patch Redeem Transaction Rr Edit,TRUE
+ Access  Patch Exchange Money Articles,TRUE
+ Access  Upload Exchange Money Images,TRUE
+ Access  Upload Exchange Money Images,TRUE
+ Access  Find Exchange Money Articles,TRUE
+ Access  Find Redeem Random Card Config,TRUE
+ Access  Upload Random Card Images,TRUE
+ Access  Upload Random Card Images,TRUE
+ Access  Find Lucky Box Articles,TRUE
+ Access  Patch Redeem Random Card Config,TRUE
+ Access  Upload Lucky Box Images,TRUE
+ Access  Find Redeem Random Card Articles,TRUE
+ Access  Upload Lucky Box Images,TRUE
+ Access  Patch Lucky Box Articles,TRUE
+ Access  Patch Redeem Random Card Articles,TRUE
+ Access  Patch Lucky Box Config,TRUE
+ Access  Find Redeem Config,TRUE
+ Access  Find Lucky Box Config,TRUE
+ Access  Patch Redeem Config,TRUE
+ Access  Find Redeem Reward,TRUE
+ Access  Patch Redeem Reward,TRUE
+ Access  Find Redeem Reward Articles,TRUE
+ Access  Patch Redeem Reward Articles,TRUE
+ Access  Upload Redeem Reward Images,TRUE
+ Access  Upload Redeem Reward Images,TRUE
+ Menu  Statement,TRUE
+ Access  Get User Statement Promotion Member,TRUE
+ Access  Find User Statement Transaction,TRUE
+ Access  Patch User Statement Clear Outstanding,TRUE
+ Access  Find Summary Statement Deposit Withdraw,TRUE
+ Access  Find Summary Statement Exchange Money,TRUE
+ Access  Find Summary Statement Promotion,TRUE
+ Access  Find Summary Statement Quest,TRUE
+ Access  Find Summary Statement Transfer,TRUE
+ Access  Find Summary Statement Turnover Turnwinlose,TRUE
+ Access  Find Summary Statement Turnover Turnwinlose Game Category,TRUE
+ Access  Find Summary Statement Turnover Turnwinlose Provider,TRUE
+ Menu  Personal Message,TRUE
+ Access  Find Personal Message Config,TRUE
+ Access  Patch Personal Message Config,TRUE
+ Access  Find Message Draft,TRUE
+ Access  Create Message Draft,TRUE
+ Access  Create Send Management,TRUE
+ Access  Get Message Draft,TRUE
+ Access  Patch Message Draft,TRUE
+ Access  Remove Message Draft,TRUE
+ Access  Upload Message Images,TRUE
+ Access  Uploader Messageimages,TRUE
+ Access  Find Message Sent,TRUE
+ Access  Find Personal Message Member Select,TRUE
+ Access  Get Message Sent,TRUE
+ Access  Patch Message Sent,TRUE
+ Access  Find Replied Message Transaction,TRUE
+ Access  Create Send Management Selected Member,TRUE
+ Access  Create Reply Message,TRUE
+ Access  Get Reply Message,TRUE
+ Access  Remove Reply Message,TRUE
+ Menu  Announcement,TRUE
+ Access  Remove Announcement,TRUE
+ Access  Find Announcement Search,TRUE
+ Access  Patch Announcement,TRUE
+ Access  Create Announcement,TRUE
+ Access  Create Announcement,TRUE
+ Access  Find Announcement,TRUE
+ Access  Get Announcement,TRUE
+ Menu  Quest,TRUE
+ Access  Find Quest Transaction,TRUE
+ Access  Get Quest Transaction,TRUE
+ Access  Get Quest Transaction Detail,TRUE
+ Access  Find Quest Member Detail,TRUE
+ Access  Find Daily Quest,TRUE
+ Access  Find Web Daily Quest,TRUE
+ Access  Find Quest Management,TRUE
+ Access  Quest Update Seq No,TRUE
+ Access  Create Quest Management,TRUE
+ Access  Patch Quest Management,TRUE
+ Access  Get Quest Management,TRUE
+ Access  Remove Quest Management,TRUE
+ Access  Create Sign Url Quest Articles,TRUE
+ Access  Upload Quest Articles,TRUE
+ Access  Edit Quest Language Setting,TRUE
+ Access  Get Details Quest Language Setting,TRUE
+ Access  Remove Quest Language Setting,TRUE
+ Access  View Quest Language Setting,TRUE
+ Access  Create Quest Language Setting,TRUE
+ Access  Find Promotion Name,TRUE
+ Access  Find Game Name,TRUE
+ Access  Find Provider Quest,TRUE
+ Access  Find Game Category Name,TRUE
+ Access  Find Quest Config,TRUE
+ Access  Patch Quest Config,TRUE
+ Menu  Bulk Import,TRUE
+ Access  Create Import Data,TRUE
+ Access  Find Batch Transaction,TRUE
+ Access  Get Batch Transaction,TRUE
+ Access  Export Csv Batch Transaction,TRUE
