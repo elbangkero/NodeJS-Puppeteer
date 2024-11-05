@@ -4,7 +4,7 @@ const csv = require('csv-parser');
 const path = require('path');
 
 (async () => {
-    const wsChromeEndpointurl = 'ws://127.0.0.1:9222/devtools/browser/27a68bb2-ac8b-4c75-bef1-4cf64759fb4f';
+    const wsChromeEndpointurl = 'ws://127.0.0.1:9222/devtools/browser/056b0a76-0fc0-41b0-ab97-c557f72edea3';
     const browser = await puppeteer.connect({
         browserWSEndpoint: wsChromeEndpointurl,
         args: ['--window-size=1920,1080'],
@@ -12,7 +12,7 @@ const path = require('path');
     });
 
     const page = await browser.newPage();
-    let pageUrl = 'https://manage.hllucky99.com/management/group';
+    let pageUrl = 'https://manage.lch-jp777.com/management/group';
 
     await page.goto(pageUrl, {
         waitUntil: 'networkidle0',
@@ -197,8 +197,8 @@ const path = require('path');
 
             } else {
                 let newAccessText = normalizedAccessText;
-                if (newAccessText.includes("Affiliate")) {
-                    newAccessText = newAccessText.replace("Affiliate", "Referral");
+                if (newAccessText.includes("Referral")) {
+                    newAccessText = newAccessText.replace("Referral", "Affiliate");
                     const resendText = newAccessText.replace('- ', '');
                     await clickAccessLevel(page, resendText);
                 }

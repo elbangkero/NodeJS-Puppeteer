@@ -7,7 +7,7 @@ const { group, groupCollapsed } = require('console');
 (async () => {
 
     try {
-        const wsChromeEndpointUrl = 'ws://127.0.0.1:9222/devtools/browser/935be50f-5d2e-4826-9e71-dead1b632c9b';
+        const wsChromeEndpointUrl = 'ws://127.0.0.1:9222/devtools/browser/99ea9a40-94fd-48bd-9ba3-c1721d40d8fb';
         const browser = await puppeteer.connect({
             browserWSEndpoint: wsChromeEndpointUrl,
             args: ['--window-size=1920,1080'],
@@ -49,12 +49,46 @@ const { group, groupCollapsed } = require('console');
         await csvWriter.writeRecords(sanitizedData);
 
         console.log('CSV file generated successfully!');
-
-        await browser.disconnect();
+        extractAgain(page);
+        //await browser.disconnect();
     } catch (error) {
         console.error('Error occurred:', error);
     }
 })();
+
+
+async function extractAgain(page) {
+
+    // Confirmation prompt
+    const group_name = await confirmPrompt('Enter group name: ');
+    if (!group_name) {
+        console.log('Automation cancelled.');
+        await browser.disconnect();
+        return;
+    }
+
+    const csvWriter = csv.createObjectCsvWriter({
+        path: `Generated-CSV/${group_name}-exported-permission.csv`,
+        encoding: 'utf8',
+        header: [
+            { id: 'permission', title: 'Permission' },
+            { id: 'admin', title: group_name }
+        ]
+    });
+
+    const validatedCheckboxes = await validateCheckboxes(page);
+
+    // Sanitize data
+    const sanitizedData = validatedCheckboxes.map((checkbox) => ({
+        permission: checkbox.permission.replace(/[^a-zA-Z0-9\s]/g, ''),
+        admin: checkbox.admin,
+    }));
+
+    await csvWriter.writeRecords(sanitizedData);
+
+    console.log('CSV file generated successfully!');
+    extractAgain(page);
+}
 
 async function confirmPrompt(question) {
     const readline = require('readline').createInterface({

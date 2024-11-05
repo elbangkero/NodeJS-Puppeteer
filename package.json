@@ -1,9 +1,10 @@
 {
-  "name": "happyvegas",
+  "name": "ELDEV Tool",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "csv-writer": "^1.6.0",
     "path": "^0.12.7",
     "puppeteer": "^23.4.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.2"
   }
 }
